@@ -72,6 +72,7 @@ function getMostFrequentElement(array) {
             continue;
         }
 
+        scannedElement.push(element);
         let frequency = getElementFrequency(element, array);
         if (frequency > highestFrequency) {
             highestFrequency = frequency;
